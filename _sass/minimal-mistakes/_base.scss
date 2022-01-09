@@ -6,6 +6,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+
 }
 
 body {
@@ -126,6 +127,8 @@ blockquote {
 /* links */
 
 a {
+  text-decoration :none;
+
   &:focus {
     @extend %tab-focus;
   }

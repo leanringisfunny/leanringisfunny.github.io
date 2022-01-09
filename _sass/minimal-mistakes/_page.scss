@@ -313,7 +313,14 @@ body {
   .sep {
     display: none;
   }
-
+ a{
+   border:white 1px solid;
+   padding :0px 10px;
+   border-radius:30%;
+   font-family: 'Nanum Pen Script', cursive;
+   color:lightpink;
+   font-size:1.5rem;
+ }
   strong {
     margin-right: 10px;
   }

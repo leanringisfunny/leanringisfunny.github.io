@@ -17,10 +17,19 @@
     padding-right: $right-sidebar-width;
   }
 }
+.archive-item{
+  display:flex;
+  font-size:13px;
+  a{
+    font-size:13px;
+  }
+
+
+}
 
 .archive__item {
   position: relative;
-
+  
   a {
     position: relative;
     z-index: 10;

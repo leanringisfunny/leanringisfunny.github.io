@@ -1,6 +1,6 @@
 ---
-title: "Posts by Category"
-layout: categories
+title: "이 블로그 설명서"
 permalink: /categories/
-author_profile: true
+layout: categories
 ---
+
