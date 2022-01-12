@@ -33,6 +33,13 @@
         <span class="nav__sub-title">Algorithm in Cpp</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Algorithm" %}
+                        <li><a href="/categories/algorithm" class="">알고리즘 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "DP" %}
                         <li><a href="/categories/dp" class="">Dynamic Programming (C++) ({{category[1].size}})</a></li>
                     {% endif %}

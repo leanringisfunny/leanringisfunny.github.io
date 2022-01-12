@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "minHo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "./assets/images/sidePhoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "하루에 한번 꾸준히."
   location         : "Ansan,korea"
   email            :
