@@ -3,9 +3,9 @@ title:  "레드블랙 트리(삽입)"
 
 
 categories:
-  - Algorithm
+  - DataStructure
 tags:
-  - Algorithm
+  - DataStructure
 last_modified_at: 2022-01-08T08:22:00-05:00
 ---
 

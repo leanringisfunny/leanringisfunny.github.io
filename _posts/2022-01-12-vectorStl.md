@@ -1,0 +1,18 @@
+---
+title:  "vector에 대해 내용을 서술하시오(모든 경우의수 탐색))"
+
+
+categories:
+  - STL
+tags:
+  - STL
+  
+last_modified_at: 2022-01-12T08:06:00-05:00
+---
+
+
+
+```cpp
+printf("write your code");
+```
+okokokokokokokokokokokokokok
