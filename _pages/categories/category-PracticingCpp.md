@@ -1,13 +1,11 @@
 ---
-title: "c++ STL(Standard Template Library) 총 정리"
+title: "Practicing Cpp"
 layout: archive
-permalink: categories/stl
+permalink: categories/PracticingCpp
 author_profile: true
 sidebar_main: true
 ---
 
 
-
-
-{% assign posts = site.categories.STL | sort:"order" %}
+{% assign posts = site.categories.PracticingCpp %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

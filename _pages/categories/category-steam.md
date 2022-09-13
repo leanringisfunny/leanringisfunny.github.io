@@ -1,13 +1,11 @@
 ---
-title: "c++ STL(Standard Template Library) 총 정리"
+title: "stream"
 layout: archive
-permalink: categories/stl
+permalink: categories/stream
 author_profile: true
 sidebar_main: true
 ---
 
 
-
-
-{% assign posts = site.categories.STL | sort:"order" %}
+{% assign posts = site.categories.streame %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

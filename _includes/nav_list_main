@@ -30,6 +30,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PracticingCpp" %}
+                        <li><a href="/categories/PracticingCpp" class="">Practicing Cpp ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Algorithm in Cpp</span>
             <ul>
                 {% for category in site.categories %}
@@ -52,6 +60,28 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">java문법 정리</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "object" %}
+                    <li><a href="/categories/object" class="">클래스와 객체 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "collection" %}
+                    <li><a href="/categories/collection" class="">컬렉션과 활용 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "stream" %}
+                    <li><a href="/categories/stream" class="">스트림 처리 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>    
       </li>
   </ul>
 </nav>

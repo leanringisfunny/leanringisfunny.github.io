@@ -1,13 +1,11 @@
 ---
-title: "c++ STL(Standard Template Library) 총 정리"
+title: "collection"
 layout: archive
-permalink: categories/stl
+permalink: categories/collection
 author_profile: true
 sidebar_main: true
 ---
 
 
-
-
-{% assign posts = site.categories.STL | sort:"order" %}
+{% assign posts = site.categories.collection %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
